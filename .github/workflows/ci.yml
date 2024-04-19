@@ -41,7 +41,7 @@ jobs:
         pyspelling
     - name: Push the reformated code
       run: |
-	# add, commit and push changes introduced by formatting step
+        echo "to implement later: add, commit and push changes introduced by formatting step"
 
     - name: Cleanup
       if: always()
